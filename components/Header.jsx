@@ -1,7 +1,10 @@
 import Link from "next/Link";
 import {Button } from "./ui/button";
 import { Span } from "next/dist/trace";
+
+
 import Nav from "./Nav";
+import MobileNav from "./MobileNav";
 
 const Header = () => {
     return (
@@ -19,7 +22,9 @@ const Header = () => {
                     </Link>
                 </div>
 
-                <div className="xl:hidden">mobile nav</div>
+                <div className="xl:hidden">
+                    <MobileNav/>
+                </div>
 
             </div>
         </header>
