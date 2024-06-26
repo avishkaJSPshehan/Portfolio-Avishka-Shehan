@@ -24,7 +24,7 @@ const services = [
     },
     {
         num:"04",
-        title:"Mobile App Development",
+        title:"Robotic and Automation",
         description:"Creating polished and performant mobile experiences with Flutter and Dart, blending innovation with user-centric design principles.",
         href:"",
     },
