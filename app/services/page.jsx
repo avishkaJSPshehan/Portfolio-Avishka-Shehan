@@ -25,8 +25,8 @@ const services = [
     {
         num:"04",
         title:"Robotic and Automation",
-        description:"Creating polished and performant mobile experiences with Flutter and Dart, blending innovation with user-centric design principles.",
-        href:"",
+        description:"Designing innovative robot and automation systems with Arduino, bringing intelligent solutions to life.",
+        href:"https://github.com/avishkaJSPshehan/Road-Train",
     },
 ]
 
