@@ -94,12 +94,12 @@ const skill = {
     description: 'I have skills about following sections.',
     skillList: [
         {
-            icon: <FaGithub />,
-            name: "GitHub",
-        },
-        {
             icon: <FaPython />,
             name: "Python",
+        },
+        {
+            icon: "C#",
+            name: "C#",
         },
         {
             icon: <FaReact />,
@@ -114,9 +114,10 @@ const skill = {
             name: "Node.Js",
         },
         {
-            icon: "C#",
-            name: "Node.Js",
+            icon: <FaGithub />,
+            name: "GitHub",
         },
+        
     ]
 }
 
