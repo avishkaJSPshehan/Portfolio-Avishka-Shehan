@@ -9,6 +9,7 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/comp
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
+import WorkSliderBtns from "@/components/WorkSliderBtns";
 
 const projects = [
     {
@@ -19,7 +20,7 @@ const projects = [
         stack: [
             {name: "Python"}
         ],
-        image:"/work/thumb1.png",
+        image:"/work/thumb1.JPG",
         github:"https://github.com/avishkaJSPshehan/BlackHat-Socket-Programming-",
     },
     {
@@ -39,7 +40,7 @@ const projects = [
         title: "Heart Disease Prediction",
         description:"Utilizing machine learning algorithms in Python, this project predicts heart disease risks based on clinical data. ",
         stack: [
-            {name: "Python"},{name: "Jupyter Notebook"},
+            {name: "Python,"},{name: "Jupyter Notebook"},
         ],
         image:"/work/thumb3.png",
         github:"https://github.com/avishkaJSPshehan/Heart-Disease-Predictor",
@@ -105,6 +106,11 @@ const Work = () => {
                                     </SwiperSlide>
                                 );
                             })}
+
+                            <WorkSliderBtns
+                                containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%_-_22px)] xl:bottom-0 z-20 w-full justify-between xl:w-max xl:justify-none"
+                                btnStyles="bg-accent hover:bg-accent text-primary text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all"
+                            />
                         </Swiper>
                     </div>
                 </div>
