@@ -42,7 +42,7 @@ const projects = [
         stack: [
             {name: "Python,"},{name: "Jupyter Notebook"},
         ],
-        image:"/work/thumb3.png",
+        image:"/work/thumb3.jpg",
         github:"https://github.com/avishkaJSPshehan/Heart-Disease-Predictor",
     },
 ];
