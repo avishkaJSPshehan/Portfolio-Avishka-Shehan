@@ -8,7 +8,7 @@ const services = [
         num:"01",
         title:"Web Development",
         description:"I specialize in building dynamic and robust web applications using the MERN stack to create efficient and user-friendly solutions.",
-        href:"",
+        href:"https://github.com/avishkaJSPshehan/AI-Image-Generator",
     },
     {
         num:"02",
