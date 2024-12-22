@@ -45,6 +45,17 @@ const projects = [
         image:"/work/thumb3.jpg",
         github:"https://github.com/avishkaJSPshehan/Heart-Disease-Predictor",
     },
+    {
+    num: "04",
+    category: "Web Service",
+    title: "Advance Authentication",
+    description:
+      "Welcome to the Authentication and Authorization System! This project provides a comprehensive and secure solution for managing user access in web applications. 🚀 ",
+    stack: [{ name: "JavaScript," }],
+    image: "/work/thumb4.jpg",
+    github:
+      "https://github.com/avishkaJSPshehan/Authentication-and-authorization.git",
+  },
 ];
 
 const Work = () => {
