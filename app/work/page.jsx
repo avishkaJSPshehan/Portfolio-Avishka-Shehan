@@ -51,8 +51,8 @@ const projects = [
     title: "Advance Authentication",
     description:
       "Welcome to the Authentication and Authorization System! This project provides a comprehensive and secure solution for managing user access in web applications. 🚀 ",
-    stack: [{ name: "JavaScript," }],
-    image: "/work/thumb4.jpg",
+    stack: [{ name: "JavaScript" }],
+    image: "app/work/thumb4.jpg",
     github:
       "https://github.com/avishkaJSPshehan/Authentication-and-authorization.git",
   },
