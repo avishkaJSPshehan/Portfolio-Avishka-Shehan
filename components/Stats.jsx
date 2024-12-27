@@ -8,7 +8,7 @@ const stats = [
         text:"Years of experience",
     },
     {
-        num:12,
+        num:21,
         text:"Projects completed",
     },
     {
@@ -16,7 +16,7 @@ const stats = [
         text:"Technologies mastered",
     },
     {
-        num:120,
+        num:492,
         text:"Code commits",
     },
 ]
